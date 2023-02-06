@@ -50,6 +50,8 @@ Create two subnets
 
 ![](Image/a-6urelab-04_12_39.png)
 
+<img src="Image/a-6urelab-04_12_39.png" width="1000" >
+
 Create Virtual machine in both subnets using ARM
 -
 
@@ -245,5 +247,5 @@ resource before deletion
 
 ![](Image/a-6urelab-04-06_02_49_28.png)
 
-<img src="Image/a-6urelab-04-06_02_49_28.png" width="700" >
+<img src="Image/a-6urelab-04-06_02_49_28.png" width="1000" >
 
