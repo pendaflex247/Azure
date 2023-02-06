@@ -245,5 +245,5 @@ resource before deletion
 
 ![](Image/a-6urelab-04-06_02_49_28.png)
 
-<img src="Image/a-6urelab-04-06_02_49_28.png" width="1000" >
+<img src="Image/a-6urelab-04-06_02_49_28.png" width="700" >
 
