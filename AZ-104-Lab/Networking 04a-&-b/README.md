@@ -107,5 +107,135 @@ Create Virtual machine in both subnets using ARM
 -In order to allow for restricted connectivity to Azure virtual machines.
 
 
+![](Image/a-6urelab-04_10_09.png)
+
+![](Image/a-6urelab-04_10_10.png)
+
+-From the error above create a network SG and then an inbound security rules to allow RDP
+
+![](Image/a-6urelab-04_10_14.png)
+
+![](Image/a-6urelab-04_10_15.png)
+
+![](Image/a-6urelab-04_10_20.png)
+
+![](Image/a-6urelab-04_10_22.png)
 
 
+-Associate the NGS to the nics
+
+![](Image/a-6urelab-04_10_23.png)
+
+![](Image/a-6urelab-04_10_24.png)
+
+![](Image/a-6urelab-04_10_26.png)
+
+
+Start both VMs
+download the RDP
+
+VM0
+
+![](Image/a-6urelab-04-06_12_35.png)
+
+![](Image/a-6urelab-04-06_12_37.png)
+
+
+VM1
+
+![](Image/a-6urelab-04-06_12_33.png)
+
+![](Image/a-6urelab-04-06_12_34.png)
+
+
+# TASK 5: Configure Azure DNS for internal name resolution
+
+In this task, you will configure DNS name resolution within a virtual network by using Azure private DNS zones.
+
+-Create Private DNS zones for internal name resolution
+
+![](Image/a-6urelab-04-06_01_00_14.png)
+
+![](Image/a-6urelab-04-06_01_02_44.png)
+
+![](Image/a-6urelab-04-06_01_03_45.png)
+
+Link
+
+![](Image/a-6urelab-04-06_01_06_15.png)
+
+![](Image/a-6urelab-04-06_01_07_44.png)
+
+![](Image/a-6urelab-04-06_01_08_26.png)
+
+![](Image/a-6urelab-04-06_01_09_50.png)
+
+![](Image/a-6urelab-04-06_01_10_02.png)
+
+Connect to the RDP session
+
+Note: I found the pasword within the ARM template
+
+    Student
+    Pa55w.rd1234
+
+Verify DNS resolution is woking
+
+![](Image/a-6urelab-04-06_01_22_02.png)
+
+
+# Task 6: configure Azure DNS for external name resolution
+
+VM public iP
+
+    az104-04-vm0 20.172.148.64
+    az104-04-vm1 20.51.160.144
+
+![](Image/a-6urelab-04-06_01_28_17.png)
+
+![](Image/a-6urelab-04-06_01_29_14.png)
+
+![](Image/a-6urelab-04-06_01_30_05.png)
+
+![](Image/a-6urelab-04-06_01_30_29.png)
+
+![](Image/a-6urelab-04-06_01_46_21.png)
+
+![](Image/a-6urelab-04-06_01_37_28.png)
+
+![](Image/a-6urelab-04-06_01_47_42.png)
+
+![](Image/a-6urelab-04-06_01_47_58.png)
+
+
+Verify that the output of the command includes the public IP address of az104-04-vm1.
+
+![](Image/a-6urelab-04-06_01_55_27.png)
+
+
+Completion map
+
+![](Image/a-6urelab-04-06_02_17_57.png)
+
+![](Image/a-6urelab-04-06_02_19_05.png)
+
+
+
+# Clean up
+
+-List all resource groups created
+
+    Get-AzResourceGroup -Name 'az104-04*'
+
+![](Image/a-6urelab-04-06_02_39_59.png)
+
+-Delete all resource groups created by this lab
+
+    Get-AzResourceGroup -Name 'az104-04*' | Remove-AzResourceGroup -Force -AsJob
+
+![](Image/a-6urelab-04-06_02_41_06.png)
+
+
+resource before deletion
+
+![](Image/a-6urelab-04-06_02_43_58.png)
