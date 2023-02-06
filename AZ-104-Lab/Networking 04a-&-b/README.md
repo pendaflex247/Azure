@@ -12,6 +12,7 @@ In this lab, you will:
 # Network Map
 
 ![](Image/az104lab04.png)
+<img src="Image/az104lab04.png" width="700" >
 
 # Task 1: Create and configure a virtual network with two subnets
 
