@@ -20,7 +20,7 @@ Create a resource group
 
 ![](Image/a-6104lab04_11_55.png)
 
-<img src="Image/a-6104lab04_11_55.png" width="700" >
+<img src="Image/a-6104lab04_11_55.png" width="900" >
 
 ![](Image/a-6104lab04_11_56.png)
 
