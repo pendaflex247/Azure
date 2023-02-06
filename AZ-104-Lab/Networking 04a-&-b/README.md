@@ -239,3 +239,11 @@ Completion map
 resource before deletion
 
 ![](Image/a-6urelab-04-06_02_43_58.png)
+
+
+![](Image/a-6urelab-04-06_02_48_46.png)
+
+![](Image/a-6urelab-04-06_02_49_28.png)
+
+<img src="Image/a-6urelab-04-06_02_49_28.png" width="1000" >
+
