@@ -34,9 +34,6 @@ Create a virtual network
 
 <img src="Image/a-6urelab-04_12_22.png" width="780" >
 
-<img src="Image/a-6urelab-04_12_23.png" width="780" >
-
-
 
 Create two subnets
 -
