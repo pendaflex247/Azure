@@ -164,9 +164,6 @@ In this task, you will configure DNS name resolution within a virtual network by
 
 Link
 
-
-<img src="Image/a-6urelab-04-06_01_06_15.png" width="780" >
-
 <img src="Image/a-6urelab-04-06_01_07_44.png" width="780" >
 
 <img src="Image/a-6urelab-04-06_01_08_26.png" width="780" >
