@@ -243,3 +243,29 @@ Verify that the output of the command includes the public IP address of az104-04
 
 <img src="Image/a-6urelab-04-06_02_49_28.png" width="780" >
 
+
+Complete
+-
+
+Task One:
+
+-Create resource group
+-Create virtual network
+-Create 2 subnets
+-Create Virtual machines
+
+
+Task Two:
+
+-Configure private and public IP addresses of Azure VMs
+
+Task Three
+
+-Configure Network Security groups
+-Associate the NSG to the NICS
+
+Task Four:
+
+-Configure Private DNS (Azure DNS for internal name resolution)
+-Link it to VMs ****
+-Configure DNS (Azure DNS for external name resolution)
