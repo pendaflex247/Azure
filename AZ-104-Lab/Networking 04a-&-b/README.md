@@ -249,23 +249,22 @@ Complete
 
 Task One:
 
--Create resource group
--Create virtual network
--Create 2 subnets
--Create Virtual machines
-
+    -Create resource group
+    -Create virtual network
+    -Create 2 subnets
+    -Create Virtual machines
 
 Task Two:
 
--Configure private and public IP addresses of Azure VMs
+    -Configure private and public IP addresses of Azure VMs
 
 Task Three
 
--Configure Network Security groups
--Associate the NSG to the NICS
+    -Configure Network Security groups
+    -Associate the NSG to the NICS
 
 Task Four:
 
--Configure Private DNS (Azure DNS for internal name resolution)
--Link it to VMs ****
--Configure DNS (Azure DNS for external name resolution)
+    -Configure Private DNS (Azure DNS for internal name resolution)
+    -Link it to VMs ****
+    -Configure DNS (Azure DNS for external name resolution)
